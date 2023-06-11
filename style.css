@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(0,0,0,0.8);
+    position: sticky;
+    top:0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin:20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size:1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    padding:8px 25px;
+    transition:all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color:black;
+    box-shadow:0 0 10px white;
+}
+#home{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.5);
+    height:840px;
+    justify-content: center;
+    align-items:center;
+    color:white;
+}
+#home{
+    background-image: url(portfolio-background.png);
+    content:"normal";
+    
+    top:0;
+    right:0;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height:900px;
+    width:100%;
+    z-index:-1;
+    opacity:.8;
+}
+   
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    top:40%;
+    right:10%;
+    
+}
+.headings{
+    font-family:century ;
+    font-size: 3rem;
+    text-align:center;
+    margin:40px 10px;
+}
+.btn{
+    padding:10px 35px;
+    background: transparent;
+   
+    color:black;
+    font-size: 1.5rem;
+    border:1px solid white;
+    
+    outline: none;
+    transition: .6s ease;
+
+}
+.btn:hover{
+    background-color: white;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+    font-weight: bold;
+}
+/* about section*/
+#about{
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    padding:20px;
+    margin-top:50px;
+}
+#pic{
+    display: flex;
+}
+#pic img{
+    width:575px;
+    height:400px;
+}
+
+#intro{
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+    padding: 10px;
+    margin-left: 180px;
+}
+#intro h2{
+    font-size: 2rem;
+    margin-bottom:20px;
+} 
+p{
+    display:flex;
+    flex-direction: column;
+    font-size:1.5rem;
+    
+    justify-content: center;
+    align-items:center;
+    width:70%;
+
+}
+.edu{
+    display:flex;
+
+}
+
+.list{
+    list-style-type: disc;
+    font-family: century;
+    font-size: 2rem;
+    padding:10px;
+    font-weight: bold;
+    margin:100px;
+}
+.innerlist{
+    list-style:circle;
+    display:flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+     padding:15px;
+     font-weight: lighter;
+     color:blue;
+}
+#cap-pic{
+    margin: 100px;;
+    height:400px;
+    width:500px;
+}
+#skillset{
+    margin-bottom: 100px;
+
+}
+.skill{
+    box-sizing: border-box;
+    width:80%;
+    background-color: white;
+    margin-left:100px;
+    
+}
+.skills{
+    text-align: right;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+h3{
+    padding-top: 20px;
+    margin-left:10px;
+    text-align: left;
+    
+}
+
+.C{width:85%;    background-color:blueviolet;}
+.P{width:90%; background-color: darkgoldenrod }
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 85%; background-color: #2196F3;} /* Blue */
+.js {width: 70%; background-color: #f44336;} /* Red */
+.myskill{
+    display:flex;
+}
+h4{
+    margin-left:180px;
+    margin-bottom:20px;
+    font-size: 1.5rem;
+    margin-top:20px;
+
+}
+#myskill{
+    margin-left: 180px;
+    line-height: 2;
+    
+}
+#contact{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgb(0,0,0,0.8);
+    color: white;
+    padding:20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input{
+    padding:14px;
+    margin:20px;
+    width:30%;
+    border:none;
+    outline:none;
+}
+#msg{
+    padding:12px;
+    margin:20px;
+    width:20%;
+    border:none;
+    outline:none;
+}
+#send{
+    padding:12px;
+    width:10%;
+    margin:30px;
+    border:2px solid white;
+    border-radius:5px;
+
+}
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.touch{
+    
+    background-color:white;
+    margin: 0;
+    width:100%;
+    padding: 0;
+    
+}
+.head{
+    font-family:century ;
+    font-size: 3rem;
+    text-align:center;
+    margin:40px 10px;
+    color:#2196F3
+
+}
+.site{
+    display:flex;
+    margin:20px;
+    font-size: 2rem;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding:20px;
+    
+
+
+}
+span{
+    font-size: 4rem;
+    
+}
+.rights{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
